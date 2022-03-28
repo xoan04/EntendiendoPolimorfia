@@ -34,3 +34,6 @@ cantidadAlfb = int( input("Ingrese la cantidad de alfabetos que desea: "))
     for i in range (cantidadAlfb):
         cadAlfabeto = input("ingrese su cadena número "+str(i+1)+" separada por espacios: ").split(" ")
         ingresar(cadAlfabeto)
+        objeto=Alfabeto(cadAlfabeto)
+        main_list.append(objeto)
+        ingresar(cadAlfabeto)
